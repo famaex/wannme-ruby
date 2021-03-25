@@ -12,8 +12,17 @@ doc
 # bundler
 .bundle
 
+# rvm
+.ruby-gemset
+
 # juwelier generated
 pkg
+
+# byebug
+.byebug_history
+
+# Environment
+.env
 
 # Have editor/IDE/OS specific files you need to ignore? Consider using a global gitignore: 
 #
@@ -40,7 +49,7 @@ pkg
 #.\#*
 
 # For vim:
-#*.swp
+*.swp
 
 # For redcar:
 #.redcar
