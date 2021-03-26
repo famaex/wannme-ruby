@@ -3,7 +3,6 @@
 # Wannme Ruby bindings
 # API spec at https://wannme.com/docs/api
 require 'httparty'
-require 'byebug'
 
 # Version
 require 'wannme/version'
