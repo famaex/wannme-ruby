@@ -20,10 +20,13 @@ require 'wannme/wannme_client'
 require 'wannme/wannme_response'
 require 'wannme/wannme_object'
 require 'wannme/api_resource'
+require 'wannme/errors'
+require 'wannme/webhook'
 require 'wannme/wannme_configuration'
 
 # Named API Resource
 require 'wannme/resources/payment'
+require 'wannme/resources/event'
 
 module Wannme
   @configuration = Wannme::WannmeConfiguration.setup

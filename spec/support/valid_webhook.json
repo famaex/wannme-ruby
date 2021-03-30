@@ -1,0 +1,17 @@
+{
+  "id": "1600329190190828548",
+  "amount": 50,
+  "checksum": "d49eea158bd5a2ae8789518a11199153f38c7884",
+  "statusCode": 1,
+  "statusDescription": "CREADO",
+  "subStatusCode": 0,
+  "subStatusDescription": "xxxxxx",
+  "partnerReference1": "ref1",
+  "partnerReference2": "",
+  "uniqueNotificationId": "1600329388963",
+  "recurrentPaymentId":"",
+  "debtCaseId":"",
+  "errorCode":"",
+  "errorDescription":"",
+  "paymentMethod":""
+}

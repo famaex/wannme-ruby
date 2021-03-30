@@ -36,7 +36,7 @@ module Wannme
         value = params[key]
         case value
         when Float
-          (value % 1).zero? ? value.to_i : value.to_s
+          format((value % 1).zero? ? '%d' : '%.2f', value)
         else
           value
         end
