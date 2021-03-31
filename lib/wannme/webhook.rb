@@ -27,7 +27,6 @@ module Wannme
         unless Util.secure_compare(expected_sig, signature)
           raise SignatureVerificationError.new(
             'No signatures found matching the expected signature for payload',
-            data
           )
         end
 
