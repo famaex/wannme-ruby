@@ -36,7 +36,7 @@ module Wannme
         value = params[key]
         case value
         when Float
-          format((value % 1).zero? ? '%d' : '%.2f', value)
+          value.round(2).to_s.sub(/\.?0+$/, '')
         else
           value
         end

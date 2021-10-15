@@ -22,10 +22,10 @@ describe Wannme::WannmeClient do
       context 'when amount has one decimal digit' do
         let(:amount) { 100.50 }
 
-        it 'computes checksum values as if the amount was 2 decimal digits' do
+        it 'computes checksum values as if the amount was 1 decimal digits' do
           return_value = described_class.new.send(:dependant_checksum_values, params, opts)
 
-          expect(return_value).to eq(['100.50', 'ref'])
+          expect(return_value).to eq(['100.5', 'ref'])
         end
       end
 
